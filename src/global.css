@@ -14,4 +14,19 @@
 :root {
     --corPrincipal: #242438;
     --corSecundaria: #fff;
+    background-color: #0000002f;
+}
+
+.usernameInput {
+    padding: 16px;
+    background-color: #0d0d2c;
+    color: #fff;
+
+    input {
+        padding: 4px;
+        margin: 6px;
+        border: none;
+        border-radius: 4px;
+        outline: none;
+    }
 }

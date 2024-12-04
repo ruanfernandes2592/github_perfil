@@ -12,7 +12,11 @@ function App() {
   const [nomeUsuario, setNomeUsuario] = useState("")
   return(
     <>
+      <div className="usernameInput">
+      <p>Digite o nome de usuário GitHub desejado seguido da tecla TAB</p>
+      <p>Ex: ruanfernandes2592</p>
       <input type="text" onBlur={(e) => setNomeUsuario(e.target.value)} />
+      </div>
 
       {nomeUsuario.length > 4 && (
       <>
